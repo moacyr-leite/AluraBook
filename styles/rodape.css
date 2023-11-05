@@ -1,0 +1,9 @@
+.rodape {
+  padding: 1em;
+}
+.rodape__titulo {
+  color: var(--cor-preto);
+}
+.rodape__link {
+  text-decoration: none;
+}
