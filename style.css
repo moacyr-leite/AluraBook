@@ -1,9 +1,11 @@
 @import url(styles/header.css);
 @import url(styles/banner.css);
 @import url(styles/lancamentos.css);
+@import url(styles/topicos.css);
 @import url(styles/contato.css);
 @import url(styles/rodape.css);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 
 :root {
   --cor-fundo: #ebecee;
@@ -16,6 +18,7 @@
   --fonte-padrao: "Poppins";
   --tamanho-padrao: 16px;
   --peso-padrao: 400;
+  --fonte-titulo: "Josefin Sans";
 }
 
 body {
