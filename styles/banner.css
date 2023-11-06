@@ -32,14 +32,27 @@
 }
 @media screen and (min-width: 1024px) {
   .banner {
-    padding: 10%;
+    padding: 85px;
   }
   .banner__titulo {
     font-size: 36px;
     font-weight: 700;
   }
   .banner__pesquisa {
-    margin-top: 5%;
+    font-size: 16px;
+    margin-top: 26px;
     width: 50%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .banner {
+    padding: 5%;
+  }
+  .banner__titulo {
+    font-size: 36px;
+  }
+  .banner__pesquisa {
+    margin-top: auto;
   }
 }

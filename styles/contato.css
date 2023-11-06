@@ -61,3 +61,21 @@
     font-size: 24px;
   }
 }
+@media screen and (min-width: 1728px) {
+  .contato {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 0;
+  }
+  .contato__email {
+    margin: 0 5%;
+    width: 30%;
+  }
+  .contato__texto {
+    padding-left: 10%;
+  }
+  .contato__titulo {
+    font-size: 24px;
+  }
+}
