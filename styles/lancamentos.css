@@ -7,6 +7,7 @@
   font-weight: 700;
   padding: 1em 0 0.5em 0;
 }
+
 .swiper-slide img {
   width: 100%;
 }
@@ -18,7 +19,6 @@
   position: initial;
   margin: 0.5em 0;
 }
-
 .lancamentos__card {
   display: grid;
   grid-template-rows: 75% 25%;
@@ -26,8 +26,6 @@
   padding: 1em;
   border-radius: 10px;
   background-color: var(--cor-branco);
-}
-.card {
 }
 .card__texto {
   display: grid;
@@ -66,4 +64,14 @@
   margin: 10px 6px;
   box-sizing: border-box;
   width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper {
+    width: 70%;
+  }
+  .lancamentos__card {
+    margin: 5% auto;
+    width: 50%;
+  }
 }

@@ -4,6 +4,7 @@
 }
 .topicos__titulo {
   color: var(--cor-branco);
+  text-align: center;
   font-size: 16px;
   font-weight: 300;
   padding: 1em;
@@ -23,4 +24,16 @@
   background-color: var(--cor-laranja);
   padding: 1em;
   color: var(--cor-branco);
+}
+
+@media screen and (min-width: 1024px) {
+  .topicos__link {
+    font-size: 24px;
+  }
+  .topicos__titulo {
+    font-size: 24px;
+  }
+  .topicos__lista {
+    margin: 5% 10%;
+  }
 }

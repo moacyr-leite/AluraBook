@@ -52,15 +52,31 @@
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
-
+.menu {
+  display: block;
+}
 .cabecalho__titulo {
   display: none;
 }
-.container__ {
+.container-1024 {
   display: none;
 }
-
 @media screen and (min-width: 1024px) {
+  .favorito {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .container-1024 {
+    display: flex;
+    align-items: center;
+  }
+  .container-1024__link {
+    color: var(--cor-preto);
+    text-decoration: none;
+    margin: 1em;
+  }
   .cabecalho__titulo {
     display: block;
     font-family: var(--fonte-titulo);
